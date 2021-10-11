@@ -6,6 +6,7 @@ public class SnakeAndLadder {
     // variable
     static int position = 0; // intialize position
     static int getPosition = 0;
+    static int numberOfDeviceRoll = 0;
 
     public static void main(String[] args) {
         SnakeAndLadder snakeLad = new SnakeAndLadder();
@@ -59,6 +60,7 @@ public class SnakeAndLadder {
 
         }
         System.out.println("Wining position : " +position);
+        System.out.println("Count number of time device roll to win :" +numberOfDeviceRoll);
 
     }
 }
