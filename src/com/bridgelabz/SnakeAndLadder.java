@@ -27,6 +27,9 @@ public class SnakeAndLadder {
           use Random Math class to generating number b/w 0 to 2
           use switch to check player option
           adding while loop to check win position
+          in case player position go above 100 , the player stay
+          in the same previous position till the player gets the exact
+           number than ads to 100
        */
         while (position < Win_POSITION) {
             int device = rolldevice();
@@ -55,6 +58,7 @@ public class SnakeAndLadder {
             }
 
         }
+        System.out.println("Wining position : " +position);
 
     }
 }
